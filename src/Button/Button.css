@@ -1,0 +1,36 @@
+button{
+    outline: none;
+    border: none;
+    border-radius: 999px;
+    padding: 0.7rem 1rem;
+    font-weight: 550;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .button1{
+    background: white;
+    color: black;
+  }
+  .button2{
+    background-color: black;
+    color:#f1f7feb5;
+  }
+  .button1:hover{
+    background: rgba(255, 255, 255, 0.89);
+  }
+  .button2:hover{
+    background: #05050a;
+    color: white;
+  
+  }
+  .button1:active{
+    background: rgba(255, 255, 255, 0.89);
+  }
+  .button2:active{
+    background: #05050a;
+    color: white;
+  
+  }
