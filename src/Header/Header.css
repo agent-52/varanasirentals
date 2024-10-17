@@ -86,3 +86,15 @@
   transform-origin: left;
   transform: rotate(-30deg);
 }
+.navDesktop div:hover{
+  color: #FF2C3B;
+  
+}
+.navDesktop div:active{
+  color: #FF2C3B;
+  
+}
+.navDesktop div{
+  transition: color 0.2s;
+  
+}

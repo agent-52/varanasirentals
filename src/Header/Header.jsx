@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import Button from "../Button/Button"
 import { useEffect, useState } from "react"
 import { HashLink } from 'react-router-hash-link';
+import logo from "/images/logos/logo3.png"
 
 import backArrow from "/images/logos/arrow.png"
 const Header = () =>
@@ -23,17 +24,20 @@ const Header = () =>
   return(
     <div>
     <div className="header noWrap">
-      <Link className="textDecNone" to="/"><div className="logo text-m1 font-medium1">Varanasi Rentals</div></Link>
-      <div className="navDesktop">
-        {/* <Link to="" className="textDecNone"><div className="font-medium text-sm text-slate-11">About</div></Link> */}
-        <Link to="/team" className="textDecNone"><div className="font-medium text-sm text-slate-11">Team</div></Link>
-        <HashLink smooth to="/#page2" className="textDecNone"><div className="font-medium text-sm text-slate-11">Years</div></HashLink>
-        <Link to="/sorry" className="textDecNone"><div className="font-medium text-sm text-slate-11">Assignments</div></Link>
+      <Link className="textDecNone" to="/">
+        <div className="flex gap00 alignC">
+          <div className="imgBox1"><img src={logo} alt="varanasi rentals logo" /></div>
+          <h1>Varanasi <span className="text-pink">Rentals</span></h1>
+        </div>
+      </Link>
+      <div className="navDesktop text-black-a9 text-sm1 flex gap2_5">
+        
+        <HashLink to="/#CarsRental" className="textDecNone"><div className="font-medium1 text-sm1 ">Cars fleet</div></HashLink>
+        <HashLink smooth to="/#TampoRental" className="textDecNone"><div className="font-medium1 text-sm1">Bus/Tampo</div></HashLink>
+        <Link to="/travelPackages" className="textDecNone"><div className="font-medium1 text-sm1">Tours</div></Link>
+        <Link to="/about" className="textDecNone"><div className="font-medium1 text-sm1">About</div></Link>
       </div>
-      <div className="navDesktop">
-        <Link to="/sorry" className="textDecNone"><Button text="Sign in" classArray="button2"/></Link>
-        <a href="https://www.instagram.com/ietstudyhub?igsh=MWR5b3FnbWoyNTl6aQ==" className="textDecNone"><Button text="Contribute >" version={1}/></a>
-      </div>
+      
     </div>
 
     <div className="header2">

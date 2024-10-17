@@ -196,6 +196,18 @@
 .text-blue-a11{
   color: var(--blue-a11)
 }
+.text-black-a11{
+  color: var(--black-a11)
+}
+.text-black-a9{
+  color: var(--black-a9)
+}
+.text-black{
+  color: black;
+}
+.text-pink{
+  color: #FF2C3B;
+}
 
 .antialiased {
   -webkit-font-smoothing: antialiased;
@@ -245,7 +257,7 @@
   font-size: 0.7rem;
 }
 .text-sm1{
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.375rem;
 }
 .text-medium{
@@ -266,7 +278,7 @@
   color: unset;
 }
 .text-medium1{
-  font-size: 1.4rem;
+  font-size: 1.8rem;
 }
 
 
@@ -323,11 +335,17 @@
 .gap2{
   gap: 2rem
 }
+.gap2_5{
+  gap: 2.5rem;
+}
 .gap3{
   gap: 3rem
 }
 .gap4{
   gap: 4rem
+}
+.gap00{
+  gap: 0.2rem;
 }
 .alignC{
   align-items: center;
@@ -408,12 +426,12 @@
 .imgBox1{
   overflow: hidden;
   
-  max-width: 30px;
+  max-width: 100px;
   aspect-ratio: 1;
   border-radius: 50%;
 }
 .imgBox1>img{
-  transform: rotate(30deg);
+  /* transform: rotate(30deg); */
   width: 100%;
   height: 100%;
   object-fit: cover;
