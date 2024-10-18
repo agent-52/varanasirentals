@@ -56,7 +56,7 @@ const Header = () =>
 
     <div className="navBarMobile navHidden " >
       <div className="navMobile cross" onClick={updateNavVisibilty}>
-        <div className="imgBox1"><img src={backArrow} alt="" /></div>
+        <div className="imgBox2"><img src={backArrow} alt="" /></div>
         
       </div>
       <Link to="/" className="textDecNone"><div className="text-medium2" onClick={updateNavVisibilty}>Home</div></Link>
