@@ -32,7 +32,7 @@ const Header = () =>
       </Link>
       <div className="navDesktop text-black-a9 text-sm1 flex gap2_5">
         
-        <HashLink to="/#CarsRental" className="textDecNone"><div className="font-medium1 text-sm1 ">Cars fleet</div></HashLink>
+        <HashLink to="/#CarsRental" className="textDecNone"><div className="font-medium1 text-sm1 ">Rental Cars </div></HashLink>
         <HashLink smooth to="/#TampoRental" className="textDecNone"><div className="font-medium1 text-sm1">Bus/Tampo</div></HashLink>
         <Link to="/travelPackages" className="textDecNone"><div className="font-medium1 text-sm1">Tours</div></Link>
         <Link to="/about" className="textDecNone"><div className="font-medium1 text-sm1">About</div></Link>
@@ -41,7 +41,12 @@ const Header = () =>
     </div>
 
     <div className="header2">
-      <Link className="textDecNone" to="/"><div className="logo text-m1 font-medium1">IET Study Hub</div></Link>
+      <Link className="textDecNone" to="/">
+        <div className="flex gap00 alignC">
+          <div className="imgBox1"><img src={logo} alt="varanasi rentals logo" /></div>
+          <h1>Varanasi <span className="text-pink">Rentals</span></h1>
+        </div>
+      </Link>
       <div className="navMobile" onClick={updateNavVisibilty}>
         <div className="stick"></div>
         <div className="stick"></div>
@@ -56,8 +61,11 @@ const Header = () =>
       </div>
       <Link to="/" className="textDecNone"><div className="text-medium" onClick={updateNavVisibilty}>Home</div></Link>
       {/* <Link to="/about" className="textDecNone"><div className="text-medium">About</div></Link> */}
-      <Link to="/team" className="textDecNone"><div className="text-medium">Team</div></Link>
-      <HashLink smooth to="/#page2" className="textDecNone"><div className="text-medium">Years</div></HashLink>
+      <HashLink to="/#CarsRental" className="textDecNone"><div className="text-medium">Rental Cars </div></HashLink>
+      <HashLink smooth to="/#TampoRental" className="textDecNone"><div className="text-medium">Bus/Tampo</div></HashLink>
+      <Link to="/tours" className="textDecNone"><div className="text-medium">Tours</div></Link>
+      <Link to="/about" className="textDecNone"><div className="text-medium">About</div></Link>
+      
       
     </div>
 

@@ -27,7 +27,7 @@
   gap: 0.4rem;
 }
 .stick{
-  background-color: white;
+  background-color:#FF2C3B;
   width: 25px;
   height: 2px;
 }
@@ -84,7 +84,7 @@
 
 .cross>:first-child{
   transform-origin: left;
-  transform: rotate(-30deg);
+  /* transform: rotate(-30deg); */
 }
 .navDesktop div:hover{
   color: #FF2C3B;
@@ -95,6 +95,19 @@
   
 }
 .navDesktop div{
+  transition: color 0.2s;
+  
+}
+
+.navBarMobile div:hover{
+  color: #FF2C3B;
+  
+}
+.navBarMobile div:active{
+  color: #FF2C3B;
+  
+}
+.navBarMobile div{
   transition: color 0.2s;
   
 }
