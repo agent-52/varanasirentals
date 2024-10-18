@@ -9,6 +9,9 @@ function App() {
   return (
     <div className='pi1 font-sans body'>
      <Header />
+     <section className='page1'>
+        
+     </section>
     </div>
   )
 }
