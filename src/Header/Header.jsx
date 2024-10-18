@@ -22,7 +22,7 @@ const Header = () =>
   }
 
   return(
-    <div>
+    <div className="pi1">
     <div className="header noWrap">
       <Link className="textDecNone" to="/">
         <div className="flex alignC gap00">
@@ -35,7 +35,7 @@ const Header = () =>
       <div className="navDesktop text-black-a9 text-sm1 flex gap2 alignC">
         
         <HashLink to="/#CarsRental" className="textDecNone"><div className="font-medium1 text-sm1 ">Rental Cars </div></HashLink>
-        <HashLink smooth to="/#TampoRental" className="textDecNone"><div className="font-medium1 text-sm1">Bus/Tampo</div></HashLink>
+        <HashLink smooth to="/#TampoRental" className="textDecNone"><div className="font-medium1 text-sm1">Bus/Tempo</div></HashLink>
         <Link to="/travelPackages" className="textDecNone"><div className="font-medium1 text-sm1">Tours & Packages</div></Link>
         <Link to="/about" className="textDecNone"><div className="font-medium1 text-sm1">About</div></Link>
         {/* <Link to="/contactDetails" className="textDecNone"><div className="font-medium1 text-sm1">Contact us</div></Link> */}

@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-block: 1rem;
+  padding-block: 0.7rem;
   position: sticky;
   top:0;
   z-index: 20;
