@@ -34,7 +34,7 @@ const Header = () =>
         
         <HashLink to="/#CarsRental" className="textDecNone"><div className="font-medium1 text-sm1 ">Rental Cars </div></HashLink>
         <HashLink smooth to="/#TampoRental" className="textDecNone"><div className="font-medium1 text-sm1">Bus/Tampo</div></HashLink>
-        <Link to="/travelPackages" className="textDecNone"><div className="font-medium1 text-sm1">Tours</div></Link>
+        <Link to="/travelPackages" className="textDecNone"><div className="font-medium1 text-sm1">Tours & Packages</div></Link>
         <Link to="/about" className="textDecNone"><div className="font-medium1 text-sm1">About</div></Link>
       </div>
       
@@ -59,12 +59,12 @@ const Header = () =>
         <div className="imgBox1"><img src={backArrow} alt="" /></div>
         
       </div>
-      <Link to="/" className="textDecNone"><div className="text-medium" onClick={updateNavVisibilty}>Home</div></Link>
+      <Link to="/" className="textDecNone"><div className="text-medium2" onClick={updateNavVisibilty}>Home</div></Link>
       {/* <Link to="/about" className="textDecNone"><div className="text-medium">About</div></Link> */}
-      <HashLink to="/#CarsRental" className="textDecNone"><div className="text-medium">Rental Cars </div></HashLink>
-      <HashLink smooth to="/#TampoRental" className="textDecNone"><div className="text-medium">Bus/Tampo</div></HashLink>
-      <Link to="/tours" className="textDecNone"><div className="text-medium">Tours</div></Link>
-      <Link to="/about" className="textDecNone"><div className="text-medium">About</div></Link>
+      <HashLink to="/#CarsRental" className="textDecNone"><div className="text-medium2">Rental Cars </div></HashLink>
+      <HashLink smooth to="/#TampoRental" className="textDecNone"><div className="text-medium2">Bus/Tampo</div></HashLink>
+      <Link to="/tours" className="textDecNone"><div className="text-medium2">Tours & Packages</div></Link>
+      <Link to="/about" className="textDecNone"><div className="text-medium2">About</div></Link>
       
       
     </div>
