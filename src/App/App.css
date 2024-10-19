@@ -211,6 +211,9 @@
 .bgPink{
   background-color: #FF2C3B;
 }
+.bgGrey{
+  background-color: #F6F6F6;
+}
 
 
 .antialiased {
@@ -236,12 +239,12 @@
 }
 .body{
   max-width: 100vw;
-  min-height: 100vh;
+  overflow-x: hidden;
   line-height: inherit;
   height: 100%;
   text-decoration: none;
   text-decoration: none;
-  overflow-x: hidden;
+ 
 }
 
 .background{
@@ -308,6 +311,10 @@
 /*Relative*/
 .relative{
   position: relative;
+}
+.absolute{
+  position: absolute;
+  inset: 0;
 }
 
 /*flex*/
@@ -470,7 +477,10 @@
   height: 90%;
 }
 .maxW45ch{
-  max-width: 45ch;
+  max-width: 40ch;
+}
+.fullWidth{
+  width: 100vw;
 }
 /*rental*/
 .rental{
@@ -482,15 +492,48 @@
   border-radius: 999px;
 
 }
+/*page1 main image*/
+.p1Mi{
+  overflow: hidden;
+  
+  max-width: 1200px;
+  
+  /* border-radius: 50%; */
+}
+.p1Mi>img{
+  /* transform: rotate(30deg); */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
 
 /*page1*/
 .page1{
-  width: 100vw;
+  width: fit-content;
   height: 90vh;
+  overflow-x: hidden;
+  
+}
+
+.bgi1{
   background-image: url("/images/carImages/background.jpg");
   background-position: center;
   background-size: cover;
 }
+
+/*fleetpage*/
+.fleetPage{
+  background-color: #F6F6F6;
+}
+
+/*overflow*/
+.overflowX{
+  overflow-x: hidden;
+}
+
+
+
 
 
 
