@@ -56,10 +56,19 @@ function App() {
      </section>
      
     </div>
-    <main className='fleetPage bgGrey font-sans'>
+    <main className='fleetPage font-sans'>
       <div className='flexC gap1 alignC'>
         <div className='rental text-sm font-medium1 noWrap'>RENTAL COLLECTION</div>
         <h1 className='text-medium'>Our Fleet Collection</h1>
+        <div className='buttonArray flex gap00'>
+          <button className='font-medium text-sm1'>CARS</button>
+          <button className='font-medium text-sm1'>TEMPOS</button>
+          <button className='font-medium text-sm1'>BUSES</button>
+          <button className='font-medium text-sm1'>PREMIUM</button>
+        </div>
+        <div className='cardArray'></div>
+
+
       </div>
     </main>
     </>

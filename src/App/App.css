@@ -212,7 +212,7 @@
   background-color: #FF2C3B;
 }
 .bgGrey{
-  background-color: #F6F6F6;
+  background-color: var(--white-a10);
 }
 
 
@@ -316,6 +316,9 @@
   position: absolute;
   inset: 0;
 }
+
+/*ul*/
+
 
 /*flex*/
 .navDesktop{
@@ -522,10 +525,43 @@
   background-size: cover;
 }
 
+.bookButton{
+  border: 1.5px solid black;
+  padding: 0.5rem 0.5rem;
+  width: 100%;
+  border: 0.7rem;
+}
+
+
+
+
+/********************/
+
 /*fleetpage*/
 .fleetPage{
-  background-color: #F6F6F6;
+  background-color: rgba(182, 182, 182, 0.226)
 }
+.buttonArray{
+  
+  
+}
+.buttonArray>button{
+  border: 1.5px solid black;
+  border-radius: 0;
+  background-color: black;
+  /* color: #ff2c3ada; */
+  color: white;
+  border-radius: 0.4rem ;
+}
+
+.cardArray{
+
+}
+
+
+
+
+
 
 /*overflow*/
 .overflowX{
